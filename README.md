@@ -1,5 +1,7 @@
 # Presention: Using a Content Management System (CMS) for COGG science sites
 
+View presentation on [GitHub Pages](https://kpace-usgs.github.io/COGG-CMS/dist/index.html#/)
+
 To run presentation locally, download zip file. Unzip it, and cd into it. 
 ```npm install```
 ```npm run serve```
