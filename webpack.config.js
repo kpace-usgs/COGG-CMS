@@ -80,8 +80,8 @@
       new CleanWebpackPlugin(['dist']),
       new webpack.optimize.OccurrenceOrderPlugin(),
       // use for development time hot-swap of only modified modules that the webpack client will load up
-      new webpack.HotModuleReplacementPlugin(),
-      new webpack.NoErrorsPlugin(),
+      //new webpack.HotModuleReplacementPlugin(),
+      //new webpack.NoErrorsPlugin(),
       new webpack.DefinePlugin({
         API: JSON.stringify(keyfile.key)
       })
