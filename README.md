@@ -1,26 +1,9 @@
-## Getting Started
+# Presention: Using a Content Management System (CMS) for COGG science sites
 
-1.Download zipped-up master template
-https://github.com/jchull/reveal.js-webpack-starter/archive/master.zip
+To run presentation locally, download zip file. Unzip it, and cd into it. 
+```npm install```
+```npm run serve```
 
-2.Unzip template files to your empty project folder
-You should have index.html and app/ directly inside your project folder now
+This demo uses the [elemeno](elemeno.io) headless CMS. It is hosted online and provides an API to access the content. The key to access the API is saved in an untracked .config.js file. Either ask Kylie for the key or log into elemeno to get one for yourself.
 
-3.Install dependencies
-`npm install`
-
-4.Start Webpack Development Server
-`npm serve`
-
-5.View Presentation
-Hot Module Reloading: http://localhost:8080/webpack-dev-server/
-Refresh Manually: http://localhost:8080
-
-6.Edit presentation
-When you save the presentation, webpack will automatically rebuild and load the changes into your browser.
-
-## Distribution Build
-The dist build output is the dist/ directory, you can open the index.html file
-there, but it will not feature hot module reloading like the dev server configuration does
-
-`npm build`
+![Logo](./images/gui.png)
