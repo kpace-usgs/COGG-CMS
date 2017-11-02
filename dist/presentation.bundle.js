@@ -87,9 +87,8 @@
 	    elemeno.getCollectionItem('publications', 'kylie-test-publication', function(err, response) {
 	        console.log(err, response);
 	        cmselement.removeChild(document.getElementById('elemenoP'))
-	        cmselement.insertAdjacentHTML('afterbegin', '<a href="' + response.data.links.self + '" target="_blank"><h3>'+response.data.title+'</h3></a>');
-	
-	        cmselement.insertAdjacentHTML('beforeend', '<p>Updated at: '+response.data.dateUpdated+'</p>');
+	        
+	        cmselement.insertAdjacentHTML('afterbegin', '<h3>'+response.data.title+'</h3>');
 	        cmselement.insertAdjacentHTML('beforeend', response.data.content.content.html)
 	    });
 	  };
